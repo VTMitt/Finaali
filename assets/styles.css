@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 1em;
+  padding: 0.1em;
+}
+
+#map {
+  align-self: auto;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 20px;
+  box-shadow: black;
+}
+@media (max-width: 800px) {
+  .title {
+    font-size: 1rem;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+  #map {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 50vh;
+  }
+  #chart {
+    font-size: 0.1rem;
+    margin: auto;
+    text-align: center;
+    width: 400%;
+    height: 10%;
+  }
+  #chart2 {
+    font-size: 0.1rem;
+    margin: auto;
+    text-align: center;
+    width: 400%;
+    height: 10%;
+  }
+  #chart3 {
+    font-size: 0.1rem;
+    margin: auto;
+    text-align: center;
+    width: 400%;
+    height: 10%;
+  }
+}
+#allThing {
+  text-align: center;
+  background-color: grey;
+}
+@media (min-width: 800px) {
+  .title {
+    font-size: 100px;
+  }
+}
